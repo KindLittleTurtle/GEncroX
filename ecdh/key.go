@@ -25,10 +25,10 @@
 package ecdh
 
 import (
-	"GEncroX"
 	"crypto/ecdh"
 	"crypto/ecdsa"
 	"errors"
+	"github.com/KindLittleTurtle/GEncroX"
 )
 
 type PrivateKey struct {

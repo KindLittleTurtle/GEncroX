@@ -25,9 +25,9 @@
 package rsa
 
 import (
-	"GEncroX"
 	"crypto/rsa"
 	"errors"
+	"github.com/KindLittleTurtle/GEncroX"
 )
 
 type PrivateKey struct {

@@ -25,11 +25,11 @@
 package ecdh
 
 import (
-	"GEncroX/aes"
 	"crypto/ecdh"
 	"crypto/rand"
 	"crypto/sha256"
 	"errors"
+	"github.com/KindLittleTurtle/GEncroX/aes"
 )
 
 // GenerateKeyPair 生成ECC密钥对

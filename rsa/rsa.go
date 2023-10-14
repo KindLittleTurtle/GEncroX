@@ -25,10 +25,10 @@
 package rsa
 
 import (
-	"GEncroX/aes"
 	"crypto/rand"
 	"crypto/rsa"
 	"errors"
+	"github.com/KindLittleTurtle/GEncroX/aes"
 )
 
 // GenerateKeyPair 生成RSA密钥对
